@@ -21,7 +21,7 @@ Control of each RGB led color using an independent potentiometer. This has to be
 |:-------------:|:-------------:|
 |![pic1](./Homework_1/hw1_pic1.jpeg) |  ![pic2](./Homework_1/hw1_pic2.jpeg)|
 
-### Link to video showcasing functionality. [here](https://youtu.be/mUSkeGJbWEo)
+### Link to video showcasing functionality. [here](https://youtu.be/BMWLpSUMGW8)
 
 ---
 
