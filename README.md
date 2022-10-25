@@ -1,9 +1,3 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 # **Introduction to Robotics (2022 - 2023)**
 Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. 
 
@@ -23,7 +17,6 @@ Control of each RGB led color using an independent potentiometer. This has to be
 
 ### Picture of the setup
 ![pic1](./Homework_1/hw1_pic3.png)
-
 | | | 
 |:-------------:|:-------------:|
 |![pic1](./Homework_1/hw1_pic1.jpeg) |  ![pic2](./Homework_1/hw1_pic2.jpeg)|
