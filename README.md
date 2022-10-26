@@ -7,21 +7,34 @@ Each homework includes requirements, implementation details, code and image file
   
 ## **Homework 1**
 
-### Technical Task.
-Control of each RGB led color using an independent potentiometer. This has to be done with digital electronics using Arduino functionalities. Read the values of the potentiometers and write a value mapped to each of the pins connected to the led.
+### **Technical Task.**
+Control of each RGB led color using an independent potentiometer. This has to be done with digital electronics using Arduino functionalities. Read the values of the potentiometers and write a value mapped to each of the pins connected to the LED.
 
-### Components.
-- RBG  LED  (1  minimum)
-- potentiometers  (3  minimum)
-- resistors and wires (per logic)
+### **Components.**
+- RBG  LED  (at least one)
+- potentiometers  (at least three)
+- resistors and wires (according to logic)
 
-### Picture of the setup.
+### **Process explanation.** ([code](link))
+I connected each of the three potentiometers to Analog pins A0 (Red), A1 (Green), and A2 (Blue). Using Arduino I read the values indicated by the potentiometers, processed them and transmitted them to the RGB LED through PWM pins 9 (Red), 10 (Green) and 11 (Blue).
+
+Integrate the following piece into the main [code](link) to see the RGB values.
+```
+  Serial.print("R: ");
+  Serial.print(redBrightness);
+  Serial.print(", G: ");
+  Serial.print(greenBrightness);
+  Serial.print(", B: ");
+  Serial.println(blueBrightness);
+```
+
+### **Pictures of the setup.**
 ![pic1](./Homework_1/hw1_pic3.png)
 | | | 
 |:-------------:|:-------------:|
 |![pic1](./Homework_1/hw1_pic1.jpeg) |  ![pic2](./Homework_1/hw1_pic2.jpeg)|
 
-### Link to video showcasing functionality. [here](https://youtu.be/BMWLpSUMGW8)
+### **Video showcasing functionality.** [here](https://youtu.be/BMWLpSUMGW8)
 
 ---
 
