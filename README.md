@@ -5,7 +5,7 @@ Each homework includes requirements, implementation details, code and image file
 
 ---
   
-## **Homework 1**
+## **Homework 1 - RGB LED**
 
 ### **Technical Task.**
 Control of each RGB led color using an independent potentiometer. This has to be done with digital electronics using Arduino functionalities. Read the values of the potentiometers and write a value mapped to each of the pins connected to the LED.
