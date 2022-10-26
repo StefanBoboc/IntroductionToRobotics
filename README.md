@@ -15,10 +15,11 @@ Control of each RGB led color using an independent potentiometer. This has to be
 - potentiometers  (at least three)
 - resistors and wires (according to logic)
 
-### **Process explanation.** ([code](link))
-I connected each of the three potentiometers to Analog pins A0 (Red), A1 (Green), and A2 (Blue). Using Arduino I read the values indicated by the potentiometers, processed them and transmitted them to the RGB LED through PWM pins 9 (Red), 10 (Green) and 11 (Blue).
+### **Process explanation.** ([code](./Homework_1/hw1-potentiometer_rgb/hw1-potentiometer_rgb.ino))
+I connected each of the three potentiometers to Analog pins 0 (Red), 1 (Green), and 2 (Blue). Using Arduino I read the values indicated by the potentiometers, processed them and transmitted them to the RGB LED through PWM pins 9 (Red), 10 (Green) and 11 (Blue).
 
-Integrate the following piece into the main [code](link) to see the RGB values.
+Integrate the following piece into the main [code](./Homework_1/hw1-potentiometer_rgb/hw1-potentiometer_rgb.ino) to see the RGB values.
+
 ```
   Serial.print("R: ");
   Serial.print(redBrightness);
@@ -30,12 +31,12 @@ Integrate the following piece into the main [code](link) to see the RGB values.
 
 ### **Pictures of the setup.**
 ![pic1](./Homework_1/hw1_pic3.png)
-| | | 
+| ![pic1](./Homework_1/hw1_pic2.jpeg) | ![pic1](./Homework_1/hw1_pic1.jpeg) | 
 |:-------------:|:-------------:|
-|![pic1](./Homework_1/hw1_pic1.jpeg) |  ![pic2](./Homework_1/hw1_pic2.jpeg)|
+| ![pic1](./Homework_1/hw1_pic5.jpeg) | ![pic2](./Homework_1/hw1_pic4.jpeg) |
 
 ### **Video showcasing functionality.** [here](https://youtu.be/BMWLpSUMGW8)
-
+  
 ---
 
 ## **Homework 2**
