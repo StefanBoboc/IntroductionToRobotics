@@ -75,6 +75,7 @@ Each state has a dedicated function that changes the states of the LEDs accordin
 The program starts in State 1. When the button is pressed, debounce is used to ignore missed signals. If a signal is constant, then the program goes, in that order, through states 2, 3 and 4. At the end it returns to State 1. From here the button can be pressed again to start a new process. The system accepts an input only if State 1 is active (``` state == 1 ```).
 
 ### **Pictures of the setup.**
+![pic1](./Homework_2/hw2_pic5.png)
 | ![pic1](./Homework_2/hw2_pic1.jpeg) | ![pic1](./Homework_2/hw2_pic2.jpeg) | 
 |:-------------:|:-------------:|
 | ![pic1](./Homework_2/hw2_pic3.jpeg) | ![pic2](./Homework_2/hw2_pic4.jpeg) |
