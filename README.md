@@ -88,15 +88,27 @@ The program starts in State 1. When the button is pressed, debounce is used to i
 ### **Technical Task.**
 With the help of a joystick navigate through the segments of a 7-segment display and "draw" on the display. The movement between segments should be natural: they should jump from the current positiononly to neighbors, but without passing through "walls".
 
-Below are the possible moves for each segment (neighbors of a segment):
+Below are the possible moves for each segment (neighbors of a segment):  
   
-  TBA
+  <img src="./Homework_3/hw3_pic_7_segment_display.png"  align="right" width="250" height="350">
+
+| Current Segment | UP | DOWN | LEFT | RIGHT | 
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **a** | N/A | g | f | b |  
+| **b** | a | g | f | N/A |
+| **c** | g | d | e | dp |
+| **d** | g | N/A | e | c |
+| **e** | g | d | N/A | c |
+| **f** | a | g | N/A | b |
+| **g** | a | d | N/A | N/A |
+| **dp** | N/A | N/A | c | N/A |
+
 
 The system will have **2 states**  pressed:
 
-- **State 1** (aka default,  but  also  initiated  after  a  button  press  in  state 2):  Current  position  blinking. Can  use  the  joystick  to  move  from one  position  to  neighbors. Short pressing the button  toggles  state 2.  Long pressing the button in state 1 resets the entire display by turning all the segments OFF and moving the current position to the decimal point.
+- **State 1** (aka default, but also initiated after button press in state 2): Current position blinking. Can use the joystick to move from one  position to neighbors. **Short pressing** the button toggles state 2. **Long pressing** the button in state 1 resets the entire display by turning all the segments OFF and moving the current position to the Decimal Point.
 
-- **State 2** (initiated  after  a  button  press  in  state  1):   The  current segment  stops  blinking,  adopting  the  state  of  the  segment  before selection (ON or OFF). Toggling the X axis change  the  segment  state  from  ON  to  OFF  or  from  OFF  to  ON. Clicking the joystick should save the segment state and exit back to state 1.
+- **State 2** (initiated after button press in state 1): The current segment stops blinking, adopting the state of the segment before selection (ON or OFF). **Toggling the X axis** changes the segment state from ON to OFF  or from OFF to ON. Clicking the joystick saves the segment state and exits back to state 1.
 
 ### **Components.**
 - 7-segment display
