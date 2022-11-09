@@ -84,5 +84,33 @@ The program starts in State 1. When the button is pressed, debounce is used to i
   
 ---
 
-## **Homework 3**
+## **Homework 3 - 7-Segment Display Controlled by Joystick**
+### **Technical Task.**
+With the help of a joystick navigate through the segments of a 7-segment display and "draw" on the display. The movement between segments should be natural: they should jump from the current positiononly to neighbors, but without passing through "walls".
+
+Below are the possible moves for each segment (neighbors of a segment):
+  
+  TBA
+
+The system will have **2 states**  pressed:
+
+- **State 1** (aka default,  but  also  initiated  after  a  button  press  in  state 2):  Current  position  blinking. Can  use  the  joystick  to  move  from one  position  to  neighbors. Short pressing the button  toggles  state 2.  Long pressing the button in state 1 resets the entire display by turning all the segments OFF and moving the current position to the decimal point.
+
+- **State 2** (initiated  after  a  button  press  in  state  1):   The  current segment  stops  blinking,  adopting  the  state  of  the  segment  before selection (ON or OFF). Toggling the X axis change  the  segment  state  from  ON  to  OFF  or  from  OFF  to  ON. Clicking the joystick should save the segment state and exit back to state 1.
+
+### **Components.**
+- 7-segment display
+- 1 joystick
+- resistors and wires (according to logic)
+
+### **Process explanation.** ([code](./Homework_3/hw3/hw3.ino))  
 TBA
+
+### **Pictures of the setup.**
+![pic1]()
+| ![pic1](./Homework_3/hw3_pic1.jpeg) | ![pic1](./Homework_3/hw3_pic2.jpeg) | 
+|:-------------:|:-------------:|
+| ![pic1](./Homework_3/hw3_pic4.jpeg) | ![pic2](./Homework_3/hw3_pic3.jpeg) |
+
+### **Video showcasing functionality.** [here](https://youtu.be/Br4ySRPxguE)
+  
