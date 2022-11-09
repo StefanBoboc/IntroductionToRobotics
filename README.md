@@ -30,10 +30,10 @@ Integrate the following piece into the main [code](./Homework_1/hw1-potentiomete
 ```
 
 ### **Pictures of the setup.**
-![pic1](./Homework_1/hw1_pic3.png)
-| ![pic1](./Homework_1/hw1_pic2.jpeg) | ![pic1](./Homework_1/hw1_pic1.jpeg) | 
+![schematic_picture](./Homework_1/hw1_pic3.png)
+| ![pic2](./Homework_1/hw1_pic2.jpeg) | ![pic1](./Homework_1/hw1_pic1.jpeg) | 
 |:-------------:|:-------------:|
-| ![pic1](./Homework_1/hw1_pic5.jpeg) | ![pic2](./Homework_1/hw1_pic4.jpeg) |
+| ![pic5](./Homework_1/hw1_pic5.jpeg) | ![pic4](./Homework_1/hw1_pic4.jpeg) |
 
 ### **Video showcasing functionality.** [here](https://youtu.be/BMWLpSUMGW8)
   
@@ -75,10 +75,10 @@ Each state has a dedicated function that changes the states of the LEDs accordin
 The program starts in State 1. When the button is pressed, debounce is used to ignore missed signals. If a signal is constant, then the program goes, in that order, through states 2, 3 and 4. At the end it returns to State 1. From here the button can be pressed again to start a new process. The system accepts an input only if State 1 is active (``` state == 1 ```).
 
 ### **Pictures of the setup.**
-![pic1](./Homework_2/hw2_pic5.png)
-| ![pic1](./Homework_2/hw2_pic1.jpeg) | ![pic1](./Homework_2/hw2_pic2.jpeg) | 
+![schematic_picture](./Homework_2/hw2_pic5.png)
+| ![pic1](./Homework_2/hw2_pic1.jpeg) | ![pic2](./Homework_2/hw2_pic2.jpeg) | 
 |:-------------:|:-------------:|
-| ![pic1](./Homework_2/hw2_pic3.jpeg) | ![pic2](./Homework_2/hw2_pic4.jpeg) |
+| ![pic3](./Homework_2/hw2_pic3.jpeg) | ![pic4](./Homework_2/hw2_pic4.jpeg) |
 
 ### **Video showcasing functionality.** [here](https://youtu.be/AADY6tSfnSc)
   
@@ -104,7 +104,7 @@ Below are the possible moves for each segment (neighbors of a segment):
 | **dp** | N/A | N/A | c | N/A |
 
 
-The system will have **2 states**  pressed:
+The system will have **2 states**:
 
 - **State 1** (aka default, but also initiated after button press in state 2): Current position blinking. Can use the joystick to move from one  position to neighbors. **Short pressing** the button toggles state 2. **Long pressing** the button in state 1 resets the entire display by turning all the segments OFF and moving the current position to the Decimal Point.
 
@@ -119,10 +119,10 @@ The system will have **2 states**  pressed:
 TBA
 
 ### **Pictures of the setup.**
-![pic1]()
-| ![pic1](./Homework_3/hw3_pic1.jpeg) | ![pic1](./Homework_3/hw3_pic2.jpeg) | 
+![schematic_picture](./Homework_3/hw3_pic5.png)
+| ![pic1](./Homework_3/hw3_pic1.jpeg) | ![pic2](./Homework_3/hw3_pic2.jpeg) | 
 |:-------------:|:-------------:|
-| ![pic1](./Homework_3/hw3_pic4.jpeg) | ![pic2](./Homework_3/hw3_pic3.jpeg) |
+| ![pic4](./Homework_3/hw3_pic4.jpeg) | ![pic3](./Homework_3/hw3_pic3.jpeg) |
 
 ### **Video showcasing functionality.** [here](https://youtu.be/Br4ySRPxguE)
   
