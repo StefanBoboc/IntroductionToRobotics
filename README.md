@@ -4,8 +4,16 @@ Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Facu
 Each homework includes requirements, implementation details, code and image files.
 
 ---
+
+>## Contents  
+>- Homework 1 - [RGB LED](#hw1)
+>- Homework 2 - [Crosswalk](#hw2)  
+>- Homework 3 - [7-Segment Display Controlled by Joystick](#hw3)
+>- Homework 4 - [TBA](#hw4)
+
+---
   
-## **Homework 1 - RGB LED**
+## **Homework 1 - RGB LED** <a id="hw1"></a>
 
 ### **Technical Task.**
 Control of each RGB led color using an independent potentiometer. This has to be done with digital electronics using Arduino functionalities. Read the values of the potentiometers and write a value mapped to each of the pins connected to the LED.
@@ -39,7 +47,7 @@ Integrate the following piece into the main [code](./Homework_1/hw1-potentiomete
   
 ---
 
-## **Homework 2 - Crosswalk**
+## **Homework 2 - Crosswalk** <a id="hw2"></a>
 ### **Technical Task.**
 Building  the  traffic  lights  for  a  crosswalk. To represent the pedestrian traffic light, use two LEDs (green and red), and for the car traffic light, use three LEDs (one green, yellow and red). 
 
@@ -84,7 +92,7 @@ The program starts in State 1. When the button is pressed, debounce is used to i
   
 ---
 
-## **Homework 3 - 7-Segment Display Controlled by Joystick**
+## **Homework 3 - 7-Segment Display Controlled by Joystick** <a id="hw3"></a>
 ### **Technical Task.**
 With the help of a joystick navigate through the segments of a 7-segment display and "draw" on the display. The movement between segments should be natural: they should jump from the current positiononly to neighbors, but without passing through "walls".
 
@@ -125,4 +133,8 @@ TBA
 | ![pic4](./Homework_3/hw3_pic4.jpeg) | ![pic3](./Homework_3/hw3_pic3.jpeg) |
 
 ### **Video showcasing functionality.** [here](https://youtu.be/Br4ySRPxguE)
-  
+
+---
+
+## **Homework 4** <a id="hw4"></a>
+TBA
