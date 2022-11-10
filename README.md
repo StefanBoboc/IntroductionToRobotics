@@ -13,7 +13,7 @@ Each homework includes requirements, implementation details, code and image file
 
 ---
 
-## **Homework 1 - RGB LED** <a id="hw1"></a> [:arrow_up:](#0)
+## **Homework 1 - RGB LED** <a id="hw1"></a> [:top:](#0)
 
 ### **Technical Task.**
 Control of each RGB led color using an independent potentiometer. This has to be done with digital electronics using Arduino functionalities. Read the values of the potentiometers and write a value mapped to each of the pins connected to the LED.
@@ -47,7 +47,7 @@ Integrate the following piece into the main [code](./Homework_1/hw1-potentiomete
   
 ---
 
-## **Homework 2 - Crosswalk** <a id="hw2"></a> [up](#0)
+## **Homework 2 - Crosswalk** <a id="hw2"></a> [:top:](#0)
 ### **Technical Task.**
 Building  the  traffic  lights  for  a  crosswalk. To represent the pedestrian traffic light, use two LEDs (green and red), and for the car traffic light, use three LEDs (one green, yellow and red). 
 
@@ -92,7 +92,7 @@ The program starts in State 1. When the button is pressed, debounce is used to i
   
 ---
 
-## **Homework 3 - 7-Segment Display Controlled by Joystick** <a id="hw3"></a> [up](#0)
+## **Homework 3 - 7-Segment Display Controlled by Joystick** <a id="hw3"></a> [:top:](#0)
 ### **Technical Task.**
 With the help of a joystick navigate through the segments of a 7-segment display and "draw" on the display. The movement between segments should be natural: they should jump from the current positiononly to neighbors, but without passing through "walls".
 
