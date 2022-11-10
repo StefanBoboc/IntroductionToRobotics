@@ -5,11 +5,11 @@ Each homework includes requirements, implementation details, code and image file
 
 ---
 
->## Contents  
->- Homework 1 - [RGB LED](#hw1)
->- Homework 2 - [Crosswalk](#hw2)  
->- Homework 3 - [7-Segment Display Controlled by Joystick](#hw3)
->- Homework 4 - [TBA](#hw4)
+## Contents  
+- Homework 1 - [RGB LED](#hw1)
+- Homework 2 - [Crosswalk](#hw2)  
+- Homework 3 - [7-Segment Display Controlled by Joystick](#hw3)
+- Homework 4 - [TBA](#hw4)
 
 ---
   
