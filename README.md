@@ -5,15 +5,15 @@ Each homework includes requirements, implementation details, code and image file
 
 ---
 
-## Contents  
+## **Contents**  <a id="0"></a>
 - Homework 1 - [RGB LED](#hw1)
 - Homework 2 - [Crosswalk](#hw2)  
 - Homework 3 - [7-Segment Display Controlled by Joystick](#hw3)
 - Homework 4 - [TBA](#hw4)
 
 ---
-  
-## **Homework 1 - RGB LED** <a id="hw1"></a>
+
+## **Homework 1 - RGB LED** <a id="hw1"></a> $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [up](#0)
 
 ### **Technical Task.**
 Control of each RGB led color using an independent potentiometer. This has to be done with digital electronics using Arduino functionalities. Read the values of the potentiometers and write a value mapped to each of the pins connected to the LED.
@@ -47,7 +47,7 @@ Integrate the following piece into the main [code](./Homework_1/hw1-potentiomete
   
 ---
 
-## **Homework 2 - Crosswalk** <a id="hw2"></a>
+## **Homework 2 - Crosswalk** <a id="hw2"></a> [up](#0)
 ### **Technical Task.**
 Building  the  traffic  lights  for  a  crosswalk. To represent the pedestrian traffic light, use two LEDs (green and red), and for the car traffic light, use three LEDs (one green, yellow and red). 
 
@@ -82,7 +82,7 @@ Each state has a dedicated function that changes the states of the LEDs accordin
 
 The program starts in State 1. When the button is pressed, debounce is used to ignore missed signals. If a signal is constant, then the program goes, in that order, through states 2, 3 and 4. At the end it returns to State 1. From here the button can be pressed again to start a new process. The system accepts an input only if State 1 is active (``` state == 1 ```).
 
-### **Pictures of the setup.**
+### **Pictures of the setup.** 
 ![schematic_picture](./Homework_2/hw2_pic5.png)
 | ![pic1](./Homework_2/hw2_pic1.jpeg) | ![pic2](./Homework_2/hw2_pic2.jpeg) | 
 |:-------------:|:-------------:|
@@ -92,7 +92,7 @@ The program starts in State 1. When the button is pressed, debounce is used to i
   
 ---
 
-## **Homework 3 - 7-Segment Display Controlled by Joystick** <a id="hw3"></a>
+## **Homework 3 - 7-Segment Display Controlled by Joystick** <a id="hw3"></a> [up](#0)
 ### **Technical Task.**
 With the help of a joystick navigate through the segments of a 7-segment display and "draw" on the display. The movement between segments should be natural: they should jump from the current positiononly to neighbors, but without passing through "walls".
 
@@ -136,5 +136,5 @@ TBA
 
 ---
 
-## **Homework 4** <a id="hw4"></a>
+## **Homework 4** <a id="hw4"></a> [up](#0)
 TBA
