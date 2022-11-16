@@ -96,14 +96,7 @@ void loop() {
   xValue = analogRead(pinX);
   yValue = analogRead(pinY);
   swValue = digitalRead(pinSW);
-/*
-  Serial.print("xValue: ");
-  Serial.print(xValue);
-  Serial.print(", yValue: ");
-  Serial.print(yValue);
-  Serial.print(", swValue: ");
-  Serial.println(swValue);
-*/
+
   setBackSegStatus();
 
   if (state == 1) {
@@ -186,7 +179,7 @@ void blink() {
 
 /* set back new and old values of all segments */
 void setBackSegStatus() {
-  for (int i = 0; i < segSize; ++i) {
+  for (int i = 0; i < segSize; i++) {
     if (i == currentSegment) {
       continue;
     }

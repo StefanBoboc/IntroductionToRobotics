@@ -9,7 +9,8 @@ Each homework includes requirements, implementation details, code and image file
 - Homework 1 - [RGB LED](#hw1)
 - Homework 2 - [Crosswalk](#hw2)  
 - Homework 3 - [7-Segment Display Controlled by Joystick](#hw3)
-- Homework 4 - [TBA](#hw4)
+- Homework 4 - [4 Digit 7-Segment Display Controlled by Joystick](#hw4)
+- Homework 5 - [TBA](#hw5)
 
 ---
 
@@ -69,8 +70,8 @@ Duration: 4 seconds.
 
 ### **Components.**
 - 5 LEDs
-- 1 button
-- 1 buzzer
+- button
+- buzzer
 - resistors and wires (according to logic)
 
 ### **Process explanation.** ([code](./Homework_2/hw2/hw2.ino))
@@ -120,11 +121,21 @@ The system will have **2 states**:
 
 ### **Components.**
 - 7-segment display
-- 1 joystick
+- joystick
 - resistors and wires (according to logic)
 
 ### **Process explanation.** ([code](./Homework_3/hw3/hw3.ino))  
 TBA
+
+Integrate the following piece into the main [code](./Homework_4/hw4/hw4.ino) to help you see your joystick values and set the thresholds accordingly.
+```
+  Serial.print("xValue: ");
+  Serial.print(xValue);
+  Serial.print(", yValue: ");
+  Serial.print(yValue);
+  Serial.print(", swValue: ");
+  Serial.println(swValue);
+```
 
 ### **Pictures of the setup.**
 ![schematic_picture](./Homework_3/hw3_pic5.png)
@@ -136,5 +147,37 @@ TBA
 
 ---
 
-## **Homework 4** <a id="hw4"></a> [up](#0)
+## **Homework 4** <a id="hw4"></a> [:top:](#0)
+### **Technical Task.**
+Use the joystick to move through the 4 digit 7 segment displays digits, press short the button to lock in on the current digit and use the other axis to increment or decrement the number. Keep the button pressed to reset all the digit values and the current position to the first digit in the first state.
+
+The system will have **2 states**:
+
+- **State 1**: Use a joystick X axis to cycle through the 4 screen digits;
+using the Y axis does nothing. A blinking Decimal Point shows
+the current digit position. When **short pressing** the button, you lock in on the selected digit and enter state 2. **Long pressing** the button only in state 1, all the digits go back to 0 and the current position is set to the first (rightmost) digit, in the first state.
+
+- **State 2**: The Decimal Point stays always on, no longer blinking and you can no longer use the X axis to cycle through the 4 digits. Instead, using the Y axis, you can increment or decrement the number on the current digit _in hex_ (from 0 to F). Pressing the button again returns you to the
+previous state. When changing the number, you must increment it for each joystick movement - it should not work continuosly increment if you keep the joystick in one position.
+
+### **Components.**
+- 4 digit 7-segment display
+- joystick
+- 74hc595 shift register
+- resistors and wires (according to logic)
+
+### **Process explanation.** ([code](./Homework_4/hw4/hw4.ino))  
+TBA
+
+### **Pictures of the setup.**
+![schematic_picture]()
+| ![pic1](./Homework_4/hw4_pic1.jpg) | ![pic2](./Homework_4/hw4_pic2.jpg) | 
+|:-------------:|:-------------:|
+| ![pic4](./Homework_4/hw4_pic4.jpg) | ![pic3](./Homework_4/hw4_pic3.jpg) |
+
+### **Video showcasing functionality.** [here](https://youtu.be/Nn4dM_5IZQ8)
+
+---
+
+## **Homework 5** <a id="hw5"></a> [:top:](#0)
 TBA
