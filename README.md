@@ -14,7 +14,7 @@ Each homework includes requirements, implementation details, code and image file
 
 ---
 
-## **Homework 1 - RGB LED** <a id="hw1"></a> [:top:](#0)
+## **Homework 1 - RGB LED :bulb:** <a id="hw1"></a> [:top:](#0)
 
 ### **Technical Task.**
 Control of each RGB led color using an independent potentiometer. This has to be done with digital electronics using Arduino functionalities. Read the values of the potentiometers and write a value mapped to each of the pins connected to the LED.
@@ -93,7 +93,7 @@ The program starts in State 1. When the button is pressed, debounce is used to i
   
 ---
 
-## **Homework 3 - 7-Segment Display Controlled by Joystick** <a id="hw3"></a> [:top:](#0)
+## **Homework 3 - 7-Segment Display Controlled by Joystick :eight: :video_game:** <a id="hw3"></a> [:top:](#0)
 ### **Technical Task.**
 With the help of a joystick navigate through the segments of a 7-segment display and "draw" on the display. The movement between segments should be natural: they should jump from the current positiononly to neighbors, but without passing through "walls".
 
@@ -125,7 +125,7 @@ The system will have **2 states**:
 - resistors and wires (according to logic)
 
 ### **Process explanation.** ([code](./Homework_3/hw3/hw3.ino))  
-TBA
+:soon:
 
 Integrate the following piece into the main [code](./Homework_4/hw4/hw4.ino) to help you see your joystick values and set the thresholds accordingly.
 ```
@@ -147,7 +147,7 @@ Integrate the following piece into the main [code](./Homework_4/hw4/hw4.ino) to 
 
 ---
 
-## **Homework 4 - 4 Digit 7-Segment Display Controlled by Joystick** <a id="hw4"></a> [:top:](#0)
+## **Homework 4 - 4 Digit 7-Segment Display Controlled by Joystick :1234: :video_game:** <a id="hw4"></a> [:top:](#0)
 ### **Technical Task.**
 Use the joystick to move through the 4 digit 7-segment displays digits, press short the button to lock in on the current digit and use the other axis to increment or decrement the number. Keep the button pressed to reset all the digit values and the current position to the first digit in the first state.
 
@@ -167,7 +167,7 @@ previous state. When changing the number, you must increment it for each joystic
 - resistors and wires (according to logic)
 
 ### **Process explanation.** ([code](./Homework_4/hw4/hw4.ino))  
-TBA
+:soon:
 
 ### **Pictures of the setup.**
 ![schematic_picture]()
