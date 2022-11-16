@@ -48,7 +48,7 @@ Integrate the following piece into the main [code](./Homework_1/hw1-potentiomete
   
 ---
 
-## **Homework 2 - Crosswalk** <a id="hw2"></a> [:top:](#0)
+## **Homework 2 - Crosswalk :traffic_light:** <a id="hw2"></a> [:top:](#0)
 ### **Technical Task.**
 Building  the  traffic  lights  for  a  crosswalk. To represent the pedestrian traffic light, use two LEDs (green and red), and for the car traffic light, use three LEDs (one green, yellow and red). 
 
