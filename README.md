@@ -93,7 +93,7 @@ The program starts in State 1. When the button is pressed, debounce is used to i
   
 ---
 
-## **Homework 3 - 7-Segment Display Controlled by Joystick :eight: & :video_game:** <a id="hw3"></a> [:top:](#0)
+## **Homework 3 - 7-Segment Display Controlled by Joystick :eight:&:video_game:** <a id="hw3"></a> [:top:](#0)
 ### **Technical Task.**
 With the help of a joystick navigate through the segments of a 7-segment display and "draw" on the display. The movement between segments should be natural: they should jump from the current positiononly to neighbors, but without passing through "walls".
 
