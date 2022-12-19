@@ -246,4 +246,4 @@ menu should only be closed by the player, pressing a button.
 |:-------------:|:-------------:|
 | ![pic4]() | ![pic3]() |
 
-### **Video showcasing functionality.** [here]()
+### **Video showcasing functionality.** [here](https://youtu.be/7lQGWtykOuA)

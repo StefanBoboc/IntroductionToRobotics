@@ -252,7 +252,6 @@ void aboutMessage(){
 void aboutSetup() {
   lcd.clear();
   displayMenuTitle("ABOUT");
-  
 }
 int lock = 0;
 void aboutManager(){
